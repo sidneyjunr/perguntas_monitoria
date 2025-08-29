@@ -16,47 +16,45 @@
         C. A lógica refere-se ao raciocínio estruturado, e o algoritmo é a aplicação prática dessa lógica em passos definidos. (CORRETA)
         D. A lógica se preocupa apenas com a otimização, e o algoritmo com a clareza.
 
-4. O Visual Studio Code (VsCode) é apresentado como uma ferramenta essencial. Qual a sua principal característica que o torna popular entre desenvolvedores, especialmente para Python?
-        A. É um sistema operacional leve e gratuito.
-        B. É uma linguagem de programação de alto nível com grande comunidade.
-        C. É um editor de código gratuito e versátil, da Microsoft, que suporta várias linguagens e oferece extensões para produtividade. (CORRETA)
-        D. É um compilador que traduz o código Python para linguagem de máquina.
 
-5. O que caracteriza as variáveis em Python em relação ao seu tipo de dado?
+4. O que caracteriza as variáveis em Python em relação ao seu tipo de dado?
         A. Elas são estaticamente tipadas, exigindo que o tipo seja declarado explicitamente.
         B. O tipo de dado é fixo e não pode ser alterado após a primeira atribuição.
         C. Elas não possuem um tipo de dado, apenas armazenam valores genéricos.
         D. Elas são dinamicamente tipadas, com o tipo de dado determinado automaticamente pelo valor atribuído. (CORRETA)
 
-6. Qual é o tipo de variável que representa valores lógicos, sendo 'True' ou 'False', conforme os exemplos de tipos de variáveis em Python?
+5. Qual é o tipo de variável que representa valores lógicos, sendo 'True' ou 'False', conforme os exemplos de tipos de variáveis em Python?
         A. String (str)
         B. Inteiro (int)
         C. Booleano (bool) (CORRETA)
         D. Flutuante (float)
 
-7. Para que é utilizada a função interna print() em Python?
+6. Para que é utilizada a função interna print() em Python?
         A. Para receber dados do usuário via teclado.
         B. Para verificar o tipo de dado de uma variável.
         C. Para exibir mensagens ou valores na tela. (CORRETA)
         D. Para converter um tipo de dado em outro.
 
-8. Se você precisa que o usuário digite seu nome em um programa Python, qual função interna você deve utilizar para receber essa entrada?
+7. Se você precisa que o usuário digite seu nome em um programa Python, qual função interna você deve utilizar para receber essa entrada?
         A. type()
         B. print()
         C. input() (CORRETA)
         D. str()
 
-9. Em Python, qual operador aritmético é usado para calcular o resto de uma divisão entre dois números?
-        A. / (Divisão)
-        B. // (Divisão Inteira)
-        C. % (Módulo) (CORRETA)
-        D. ** (Exponenciação)
+8. Como o aluno pode participar de um workshop?  
+        A. Solicitando na recepção da escola  
+        B. Acessando a aba Super Módulos do app  
+        C. Acessando a aba Aulas Compartilhadas do app (CORRETA)  
+        D. Não é possível participar  
 
-10. Qual a principal vantagem das F-strings (formatted string literals) em Python, de acordo com o material da aula?
-        A. Sua complexidade de sintaxe, ideal para programadores avançados.
-        B. São mais lentas que outros métodos de formatação, mas consomem menos memória.
-        C. Permitem incluir expressões dentro de strings de forma mais legível, concisa e geralmente são mais rápidas. (CORRETA)
-        D. Servem apenas para exibir textos estáticos, sem variáveis.
+9. Como subir no ranking da escola?  
+        A. Não faltando às aulas  
+        B. Respondendo as provas  
+        C. Marcando reposições  
+        D. Indo nas aulas, usando bem os benefícios, fazendo as provas, projeto, entre outros (CORRETA)  
 
-
-//SOBRE A INFINITY
+10. Em qual aba do app recarrega os créditos?  
+        A. Nota e Ranking  
+        B. Supermódulos  
+        C. Infinity Bar (CORRETA)  
+        D. Eventos Gratuitos  

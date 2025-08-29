@@ -67,37 +67,8 @@
         C. [{ id: 1, nome: "ANA" }, { id: 2, nome: "CARLOS" }, { id: 3, nome: "BEATRIZ" }]
         D. undefined
 
-7. Você tem dois objetos representando partes de informações de um produto. Use o spread operator para combiná-los em um único objeto.
-        const infoBasica = { nome: "Smart TV", marca: "XYZ" };
-        const detalhes = { tamanho: "55 polegadas", preco: 3500 };
-        const produtoCompleto = { ...infoBasica, ...detalhes, garantia: "2 anos" };
-        console.log(produtoCompleto.nome + " - " + produtoCompleto.tamanho + " - " + produtoCompleto.garantia);
-        Qual será a saída exata no console?
-        A. Smart TV - undefined - 2 anos
-        B. undefined - 55 polegadas - 2 anos
-        C. Smart TV - 55 polegadas - 2 anos (CORRETA)
-        D. { nome: "Smart TV", marca: "XYZ", tamanho: "55 polegadas", preco: 3500, garantia: "2 anos" }
 
-8. Considere a função calcularMediaNotas que utiliza o rest operator:
-        function calcularMediaNotas(aluno, ...notas) {
-            if (notas.length === 0) return 0;
-            const soma = notas.reduce((acc, curr) => acc + curr, 0);
-            return soma / notas.length;
-        }
-        console.log(calcularMediaNotas("Fernando", 7, 8, 9, 6));
-        Qual será a saída no console após a execução deste código?
-        A. 
-        B. 8 (CORRETA)
-        C. 7.5
-        D. Fernando
-
-9. Qual das seguintes opções descreve uma das principais vantagens da Programação Orientada a Objetos (POO) mencionadas no material da Aula 08?
-        A. Garantia de desempenho superior em todos os tipos de projetos, independentemente da escala.
-        B. Necessidade de planejamento mínimo, tornando-a ideal para projetos simples e de desenvolvimento rápido.
-        C. Facilidade de Expansão, permitindo que novos recursos sejam adicionados sem a necessidade de modificar extensivamente o código existente. (CORRETA)
-        D. Superengenharia é evitada automaticamente, garantindo que o código seja sempre conciso.
-
-10. Dado um array de produtos, você precisa encontrar todos os produtos cujo preço seja superior a R$ 100.
+7. Dado um array de produtos, você precisa encontrar todos os produtos cujo preço seja superior a R$ 100.
         const produtos = [
             { nome: "Mouse", preco: 75 },
             { nome: "Monitor", preco: 450 },
@@ -111,3 +82,21 @@
         B. 3
         C. 2 (CORRETA)
         D. 0
+
+8. Como o aluno pode participar de um workshop?  
+        A. Solicitando na recepção da escola  
+        B. Acessando a aba Super Módulos do app  
+        C. Acessando a aba Aulas Compartilhadas do app (CORRETA)  
+        D. Não é possível participar  
+
+9. Como subir no ranking da escola?  
+        A. Não faltando às aulas  
+        B. Respondendo as provas  
+        C. Marcando reposições  
+        D. Indo nas aulas, usando bem os benefícios, fazendo as provas, projeto, entre outros (CORRETA)  
+
+10. Em qual aba do app recarrega os créditos?  
+        A. Nota e Ranking  
+        B. Supermódulos  
+        C. Infinity Bar (CORRETA)  
+        D. Eventos Gratuitos  

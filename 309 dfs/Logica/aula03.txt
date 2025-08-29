@@ -62,40 +62,21 @@
         C. Este é um loop infinito que imprimirá números indefinidamente, pois não há uma condição interna ou comando break para terminá-lo. (CORRETA)
         D. O loop terminará automaticamente quando contador atingir o limite máximo de um inteiro.
 
-8. Combinar laços while com estruturas condicionais (if, elif, else) é uma prática recomendada. Qual é um dos principais benefícios dessa combinação, conforme a Aula 03?
-        A. Simplificar a sintaxe básica do laço while para reduzir o número de linhas de código.
-        B. Eliminar a necessidade de uma condição de término explícita no laço while.
-        C. Permite criar programas mais robustos e dinâmicos, executando blocos de código específicos com base em condições verificadas a cada iteração do laço. (CORRETA)
-        D. Acelerar o processamento de dados, transformando o while em um laço paralelo.
+8. Um aluno faltou a uma aula importante. Qual benefício ele deve usar para garantir que não perca o conteúdo?
+        A. Aulas particulares.
+        B. Aula online.
+        C. Aulas de reposição.(CORRETA)
+        D. Aulas do curso.
 
-9. Considere o seguinte código com laços aninhados:
-        i = 0
-        while i < 2:
-            j = 0
-            while j < 2:
-                print(f"Laço Interno: ({i},{j})")
-                j += 1
-            i += 1
+9 -  A parceria da Infinity School com quais empresas de tecnologia oferece acesso a ferramentas e certificações relevantes para o mercado?
+        A. Apple, Amazon e Google.
+        B. Microsoft, Oracle e Adobe.
+        C. Microsoft, Google e Adobe.(CORRETA)
+        D. Samsung, Google e Apple.
 
-        Quantas vezes a mensagem "Laço Interno: (i,j)" será impressa na tela?
-        A. 2 vezes
-        B. 3 vezes
-        C. 4 vezes (CORRETA)
-        D. 6 vezes
+10 - O ranking de alunos da Infinity School serve principalmente para qual finalidade?
+        A. Determinar quem pode participar de eventos sociais.
+        B. Medir o desempenho dos alunos e incentivar a competição saudável.(CORRETA)
+        C. Oferecer acesso exclusivo a aulas online.
+        D. Limitar o acesso a aulas de reposição.
 
-10. Analise o código que tenta encontrar um número par em um determinado intervalo e para a execução quando encontra:
-        num = 7
-        limite = 15
-        while num <= limite:
-            if num % 2 == 0:
-                print(f"Número par encontrado: {num}")
-                break
-            num += 1
-        else:
-            print("Nenhum número par encontrado no intervalo.")
-
-        Qual será a saída final deste código?
-        A. Nenhum número par encontrado no intervalo.
-        B. Número par encontrado: 8 (CORRETA)
-        C. Número par encontrado: 14
-        D. O código entrará em loop infinito.

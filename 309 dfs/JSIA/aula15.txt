@@ -34,59 +34,27 @@
         C. Eles são respostas enviadas por servidores para indicar o resultado de uma solicitação feita pelo cliente, permitindo o tratamento adequado de erros ou sucessos.(CORRETA)
         D. Eles servem para criptografar os dados transmitidos entre cliente e servidor.
 
-7. O que significa um "timeout" em relação a uma requisição a uma API?
-        A. A conexão foi bem-sucedida e os dados foram recebidos instantaneamente.
-        B. Ocorre quando a requisição é muito pequena e é processada rapidamente.
-        C. Ocorre quando uma requisição demora mais que o tempo limite esperado, interrompendo a conexão para evitar longas esperas e permitindo o tratamento adequado do erro.(CORRETA)
-        D. É um erro que indica que a API não está disponível, independentemente do tempo de espera.
 
-8. Por que a transformação dos dados recebidos de uma API é fundamental para o front-end?
+7. Por que a transformação dos dados recebidos de uma API é fundamental para o front-end?
         A. Para manter os dados no seu formato bruto original, sem nenhuma alteração.
         B. Para dificultar a leitura e manipulação dos dados no lado do cliente.
         C. Para adaptá-los às necessidades do front-end, melhorando a clareza, reduzindo informações desnecessárias e garantindo uma apresentação mais eficiente e alinhada à experiência do usuário.(CORRETA)
         D. Para aumentar a quantidade de requisições à API, melhorando a performance.
 
-9. Ao receber dados de uma API, qual a utilidade de formatar valores como preços para formato monetário (ex: R$ 50,00) ou datas para um formato legível (ex: DD/MM/AAAA)?
-         A. Ajustar as informações para torná-las mais simples e adequadas ao uso no front-end, facilitando a exibição e manipulação na aplicação.(CORRETA)
-         B. Complicar a exibição para que apenas usuários avançados possam entender os dados.
-         C. Adicionar complexidade desnecessária aos dados recebidos.
-         D. É uma medida de segurança para ocultar os valores reais dos dados.
-
-//SOBRE A INFINITY
-
-10. Um aluno faltou a uma aula importante. Qual benefício ele deve usar para garantir que não perca o conteúdo?
+8. Um aluno faltou a uma aula importante. Qual benefício ele deve usar para garantir que não perca o conteúdo?
         A. Aulas particulares.
         B. Aula online.
         C. Aulas de reposição.(CORRETA)
         D. Aulas do curso.
 
-11 -  A parceria da Infinity School com quais empresas de tecnologia oferece acesso a ferramentas e certificações relevantes para o mercado?
+9 -  A parceria da Infinity School com quais empresas de tecnologia oferece acesso a ferramentas e certificações relevantes para o mercado?
         A. Apple, Amazon e Google.
         B. Microsoft, Oracle e Adobe.
         C. Microsoft, Google e Adobe.(CORRETA)
         D. Samsung, Google e Apple.
 
-12 - O ranking de alunos da Infinity School serve principalmente para qual finalidade?
+10 - O ranking de alunos da Infinity School serve principalmente para qual finalidade?
         A. Determinar quem pode participar de eventos sociais.
         B. Medir o desempenho dos alunos e incentivar a competição saudável.(CORRETA)
         C. Oferecer acesso exclusivo a aulas online.
         D. Limitar o acesso a aulas de reposição.
-
-
-11. A principal vantagem das aulas online é a flexibilidade de…
-A. preço e duração do curso.
-B. conteúdo e material didático.
-C. tempo e localização. (CORRETA)
-D. acesso a aulas particulares.
-
-12. Qual benefício da Infinity School é ideal para alunos que precisam de um suporte de aprendizado personalizado e focado em suas dificuldades?
-A. Aulas particulares. (CORRETA)
-B. Aula online.
-C. Aulas de reposição.
-D. Aulas do curso.
-
-13. Os eventos no bar organizados pela escola têm como principal propósito…
-A. garantir a frequência dos alunos.
-B. oferecer um ambiente de estudo formal.
-C. proporcionar oportunidades de networking e socialização. (CORRETA)
-D. complementar o ranking de alunos.

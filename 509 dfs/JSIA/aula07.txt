@@ -48,17 +48,8 @@
         C. ["18", "22", "30"]
         D. undefined
 
-5.  Considere o seguinte script que utiliza o método reduce():
-        const valores = [2, 4, 11, 12];
-        const somaTotal = valores.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
-        console.log(somaTotal);
-        Qual será o valor exibido no console após a execução deste código?
-        A. 2
-        B. 29 (CORRETA)
-        C. 0
-        D. undefined
 
-6.  Um sistema precisa verificar se todos os alunos em uma lista têm nota maior ou igual a 7 para serem considerados aprovados.
+5.  Um sistema precisa verificar se todos os alunos em uma lista têm nota maior ou igual a 7 para serem considerados aprovados.
         const notasAlunos = [5, 10, 11, 13, 14];
         const todosAprovados = notasAlunos.every(nota => nota >= 7);
         console.log(todosAprovados);
@@ -68,30 +59,33 @@
         C. false, porque o aluno com nota 5 não atende à condição, fazendo com que every() pare a execução e retorne falso. (CORRETA)
         D. true, porque a média das notas é maior que 7.
 
-7.  Analise o seguinte código para localizar um item específico:
-        const itens = ["caneta", "caderno", "borracha", "lápis", "caneta"];
-        const primeiroItemComC = itens.find(item => item.startsWith("c"));
-        console.log(primeiroItemComC);
-        Qual será a saída no console após a execução deste código?
-        A. ["caneta", "caderno"]
-        B. caneta (CORRETA)
-        C. undefined
-        D. Erro: find() não suporta strings.
 
-8.  De acordo com a Aula 07, qual das seguintes opções NÃO é uma vantagem dos métodos auxiliares de arrays (forEach(), map(), filter(), etc.)?
-        A. Promovem a imutabilidade, preservando o estado do array original.
-        B. Tornam o código mais limpo e legível, evitando loops for ou while tradicionais.
-        C. Permitem realizar operações comuns de forma mais eficiente e com menos código.
-        D. Necessitam de declarações de tipo explícitas para arrays, aumentando a complexidade em JavaScript. (CORRETA)
-
-9.  Você precisa criar um novo array contendo a raiz quadrada de cada número do array original, sem modificar o array original. Qual método auxiliar de array seria o mais adequado para essa tarefa?
+6.  Você precisa criar um novo array contendo a raiz quadrada de cada número do array original, sem modificar o array original. Qual método auxiliar de array seria o mais adequado para essa tarefa?
         A. forEach()
         B. reduce()
         C. map() (CORRETA)
         D. some()
 
-10. Segundo a Aula 07, como uma ferramenta de Inteligência Artificial como o ChatGPT pode auxiliar no desenvolvimento de código, especialmente com métodos auxiliares de arrays?
+7. Segundo a Aula 07, como uma ferramenta de Inteligência Artificial como o ChatGPT pode auxiliar no desenvolvimento de código, especialmente com métodos auxiliares de arrays?
         A. Substituindo completamente o desenvolvedor na escrita de códigos complexos, sem necessidade de supervisão.
         B. Apenas fornecendo a sintaxe básica dos métodos, sem explicações ou exemplos.
         C. Oferecendo explicações claras, exemplos práticos, dicas de melhores práticas, identificação de erros, otimizações e diferentes abordagens. (CORRETA)
         D. Apenas gerando prompts de código, mas sem capacidade de depurar ou otimizar.
+
+8. A principal vantagem das aulas online é a flexibilidade de…
+        A. preço e duração do curso.
+        B. conteúdo e material didático.
+        C. tempo e localização. (CORRETA)
+        D. acesso a aulas particulares.
+
+9. Qual benefício da Infinity School é ideal para alunos que precisam de um suporte de aprendizado personalizado e focado em suas dificuldades?
+        A. Aulas particulares. (CORRETA)
+        B. Aula online.
+        C. Aulas de reposição.
+        D. Aulas do curso.
+
+10. Os eventos no bar organizados pela escola têm como principal propósito…
+        A. garantir a frequência dos alunos.
+        B. oferecer um ambiente de estudo formal.
+        C. proporcionar oportunidades de networking e socialização. (CORRETA)
+        D. complementar o ranking de alunos.

@@ -56,43 +56,14 @@
         C. ["Notebook", "Mouse"]
         D. ["NOTEBOOK", "MOUSE"] (CORRETA)
 
-6. Um desenvolvedor precisa calcular o total de vendas a partir de um array de objetos. Analise o código:
-        const vendas = [
-            { item: "Camiseta", valor: 50 },
-            { item: "Calça", valor: 120 },
-            { item: "Meia", valor: 10 }
-        ];
-        const totalVendas = vendas.reduce((acumulador, vendaAtual) => acumulador + vendaAtual.valor, 0);
-        console.log(totalVendas);
-        Qual será o valor impresso no console por este script?
-        A. 180
-        B. 170
-        C. 130
-        D. 180 (CORRETA)
 
-7. Dado o seguinte array de números:
-        const idades = [5, 6, 8-10];
-        const maioresDeIdade = idades.filter(idade => idade >= 18);
-        console.log(maioresDeIdade.length);
-        Quantos elementos estarão presentes no array maioresDeIdade após a execução deste código?
-        A. 3
-        B. 4 (CORRETA)
-        C. 5
-        D. 6
-
-8. Qual das seguintes opções descreve uma das principais vantagens da Programação Orientada a Objetos (POO), conforme discutido na Aula 09?
-        A. Redução significativa do tempo de execução do código em todas as aplicações.
-        B. Eliminação da necessidade de testar o código, devido à sua natureza autodocumentada.
-        C. Facilitação da organização e reutilização do código através de conceitos como herança, encapsulamento e polimorfismo, tornando-o mais modular e fácil de manter. (CORRETA)
-        D. Restrição do desenvolvimento a linguagens de programação de baixo nível.
-
-9. No contexto da Programação Orientada a Objetos, qual a distinção fundamental entre uma Classe e um Objeto?
+6. No contexto da Programação Orientada a Objetos, qual a distinção fundamental entre uma Classe e um Objeto?
         A. Uma Classe é uma representação abstrata de dados, enquanto um Objeto é um tipo de dado primitivo.
         B. Uma Classe é uma instância concreta de um Objeto, enquanto um Objeto é o modelo para criar Classes.
         C. Uma Classe é um modelo ou molde que define a estrutura e o comportamento, enquanto um Objeto é uma instância específica dessa Classe, possuindo seus próprios dados e funcionalidades. (CORRETA)
         D. Classes e Objetos são termos sinônimos, usados indistintamente para representar dados e métodos.
 
-10. Analise o código JavaScript que utiliza a desestruturação de objetos:
+7. Analise o código JavaScript que utiliza a desestruturação de objetos:
         const configuracoesUsuario = {
             tema: "claro",
             idioma: "pt-BR",
@@ -105,3 +76,21 @@
         B. Idioma: pt-BR, Tema: claro (CORRETA)
         C. Idioma: true, Tema: pt-BR
         D. { tema: "claro", idioma: "pt-BR", notificacoes: true }
+
+8. A certificação internacional oferecida pela Infinity School tem como principal objetivo…
+        A. Garantir que o aluno conclua o curso rapidamente.
+        B. Validar as habilidades e conhecimento sdo aluno em um nível global. (CORRETA)
+        C. Conceder acesso ilimitado a aulas de reposição.
+        D. Substituir o ranking de alunos.
+
+9. Qual o limite de aulas compartilhadas para se inscrever?
+        A. 3 aulas
+        B. 2 aulas por semana. (CORRETA)
+        C. Não há limite
+        D. 1 aula por mês
+
+10. Em qual aba do app marca a presença?
+        A. Nota e ranking
+        B. Marcar Presença. (CORRETA)
+        C. Aulas Compartilhadas
+        D. Infinity Bar

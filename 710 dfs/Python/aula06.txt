@@ -1,59 +1,60 @@
 1. De acordo com a Aula 06, qual é o papel fundamental dos ambientes virtuais em Python?
-A. Acelerar a execução de programas Python em qualquer sistema operacional.
-B. Fornecer uma interface gráfica para o gerenciamento de projetos.
-C. Isolar e gerenciar de maneira eficaz as dependências de projetos diferentes, evitando que um projeto afete o ambiente global do sistema ou outros projetos. (CORRETA)
-D. Compilar automaticamente o código Python em arquivos executáveis.
+        A. Acelerar a execução de programas Python em qualquer sistema operacional.
+        B. Fornecer uma interface gráfica para o gerenciamento de projetos.
+        C. Isolar e gerenciar de maneira eficaz as dependências de projetos diferentes, evitando que um projeto afete o ambiente global do sistema ou outros projetos. (CORRETA)
+        D. Compilar automaticamente o código Python em arquivos executáveis.
 
 2. Você deseja criar um ambiente virtual chamado meu_projeto_venv no diretório atual. Qual é o comando correto que você deve usar, conforme o Passo 3 da Aula 06?
-A. pip install meu_projeto_venv
-B. create venv meu_projeto_venv
-C. python -m venv meu_projeto_venv (CORRETA)
-D. venv activate meu_projeto_venv
+        A. pip install meu_projeto_venv
+        B. create venv meu_projeto_venv
+        C. python -m venv meu_projeto_venv (CORRETA)
+        D. venv activate meu_projeto_venv
 
-3. Um desenvolvedor está usando um sistema operacional Linux e criou um ambiente virtual chamado dev_env. Ele tentou ativá-lo com o comando dev_env/scripts/activate, mas percebeu que não funcionou. Qual é o comando correto que ele deveria ter usado para ativar o ambiente virtual no Linux ou macOS, de acordo com o Passo 4 da Aula 06?
-A. python dev_env/activate
-B. activate dev_env
-C. source dev_env/bin/activate (CORRETA)
-D. pip activate dev_env
 
-4. Após ativar um ambiente virtual, qual comando deve ser utilizado para instalar uma biblioteca Python, por exemplo, a biblioteca requests, especificamente nesse ambiente isolado?
-A. install requests
-B. python -m install requests
-C. pip install requests (CORRETA)
-D. venv install requests
+3. Qual é o objetivo principal do "PROJETO" que será desenvolvido na Aula 06?
+        A. Criar uma aplicação web complexa com banco de dados.
+        B. Desenvolver um jogo interativo com gráficos 3D.
+        C. Desenvolver um programa de linha de comando que permite aos usuários gerenciar suas tarefas diárias, atribuindo-lhes prioridades e categorias. (CORRETA)
+        D. Criar uma ferramenta para análise de dados e geração de relatórios gráficos.
 
-5. Quando você termina de trabalhar em um projeto e deseja sair do ambiente virtual ativo, qual comando deve ser usado para desativá-lo, conforme o Passo 6 da Aula 06?
-A. exit
-B. deactivate (CORRETA)
-C. stop venv
-D. remove myenv
+4. Para representar cada tarefa no projeto de gerenciamento de tarefas, que deve incluir informações como nome, descrição, prioridade e categoria, qual estrutura de dados é sugerida na Aula 06?
+        A. Listas (para armazenar as tarefas individualmente).
+        B. Tuplas (para garantir que os dados de uma tarefa não sejam alterados).
+        C. Conjuntos (para armazenar tarefas únicas sem ordem específica).
+        D. Dicionários (para representar as tarefas, mapeando chaves como "nome" a seus respectivos valores). (CORRETA)
 
-6. Qual é o objetivo principal do "PROJETO" que será desenvolvido na Aula 06?
-A. Criar uma aplicação web complexa com banco de dados.
-B. Desenvolver um jogo interativo com gráficos 3D.
-C. Desenvolver um programa de linha de comando que permite aos usuários gerenciar suas tarefas diárias, atribuindo-lhes prioridades e categorias. (CORRETA)
-D. Criar uma ferramenta para análise de dados e geração de relatórios gráficos.
+5. A seção "Funções" do projeto lista várias funcionalidades a serem criadas. Qual das seguintes funcionalidades não é mencionada explicitamente como uma função a ser desenvolvida para o programa de gerenciamento de tarefas?
+        A. Adicionar tarefas.
+        B. Listar tarefas.
+        C. Marcar tarefas como concluídas.
+        D. Enviar notificações por e-mail sobre tarefas pendentes. (CORRETA)
 
-7. Para representar cada tarefa no projeto de gerenciamento de tarefas, que deve incluir informações como nome, descrição, prioridade e categoria, qual estrutura de dados é sugerida na Aula 06?
-A. Listas (para armazenar as tarefas individualmente).
-B. Tuplas (para garantir que os dados de uma tarefa não sejam alterados).
-C. Conjuntos (para armazenar tarefas únicas sem ordem específica).
-D. Dicionários (para representar as tarefas, mapeando chaves como "nome" a seus respectivos valores). (CORRETA)
+6. Após ativar um ambiente virtual, um usuário tentou verificar quais bibliotecas estavam instaladas usando o comando list_packages. Qual é o problema com este comando e qual o comando correto, mencionado na Aula 06, para listar as bibliotecas instaladas em um ambiente virtual?
+        A. O comando list_packages é inválido; o correto é python list.
+        B. O comando está quase certo, mas deveria ser pip list_packages.
+        C. O comando list_packages não existe; o comando correto é pip list. (CORRETA)
+        D. Ele esqueceu de especificar o ambiente virtual antes de list_packages.
 
-8. A seção "Funções" do projeto lista várias funcionalidades a serem criadas. Qual das seguintes funcionalidades não é mencionada explicitamente como uma função a ser desenvolvida para o programa de gerenciamento de tarefas?
-A. Adicionar tarefas.
-B. Listar tarefas.
-C. Marcar tarefas como concluídas.
-D. Enviar notificações por e-mail sobre tarefas pendentes. (CORRETA)
+7. Você está trabalhando em dois projetos, "WebSite" e "API", no mesmo computador. O projeto "WebSite" requer a biblioteca flask na versão 1.0, enquanto o projeto "API" necessita da flask na versão 2.0. Como o uso de ambientes virtuais, conforme explicado na Aula 06, resolve esse potencial conflito?
+        A. Os ambientes virtuais detectam automaticamente as versões e instalam a mais recente globalmente.
+        B. Eles permitem que você instale ambas as versões da biblioteca flask no ambiente global do sistema.
+        C. Cada projeto pode ter seu próprio ambiente virtual isolado, permitindo que a versão 1.0 de flask seja instalada no ambiente do "WebSite" e a versão 2.0 no ambiente da "API" sem conflitos. (CORRETA)
+        D. Os ambientes virtuais forçam o desenvolvedor a escolher uma única versão da biblioteca para todos os projetos.
 
-9. Após ativar um ambiente virtual, um usuário tentou verificar quais bibliotecas estavam instaladas usando o comando list_packages. Qual é o problema com este comando e qual o comando correto, mencionado na Aula 06, para listar as bibliotecas instaladas em um ambiente virtual?
-A. O comando list_packages é inválido; o correto é python list.
-B. O comando está quase certo, mas deveria ser pip list_packages.
-C. O comando list_packages não existe; o comando correto é pip list. (CORRETA)
-D. Ele esqueceu de especificar o ambiente virtual antes de list_packages.
+8. Como o aluno pode participar de um workshop?  
+        A. Solicitando na recepção da escola  
+        B. Acessando a aba Super Módulos do app  
+        C. Acessando a aba Aulas Compartilhadas do app (CORRETA)  
+        D. Não é possível participar  
 
-10. Você está trabalhando em dois projetos, "WebSite" e "API", no mesmo computador. O projeto "WebSite" requer a biblioteca flask na versão 1.0, enquanto o projeto "API" necessita da flask na versão 2.0. Como o uso de ambientes virtuais, conforme explicado na Aula 06, resolve esse potencial conflito?
-A. Os ambientes virtuais detectam automaticamente as versões e instalam a mais recente globalmente.
-B. Eles permitem que você instale ambas as versões da biblioteca flask no ambiente global do sistema.
-C. Cada projeto pode ter seu próprio ambiente virtual isolado, permitindo que a versão 1.0 de flask seja instalada no ambiente do "WebSite" e a versão 2.0 no ambiente da "API" sem conflitos. (CORRETA)
-D. Os ambientes virtuais forçam o desenvolvedor a escolher uma única versão da biblioteca para todos os projetos.
+9. Como subir no ranking da escola?  
+        A. Não faltando às aulas  
+        B. Respondendo as provas  
+        C. Marcando reposições  
+        D. Indo nas aulas, usando bem os benefícios, fazendo as provas, projeto, entre outros (CORRETA)  
+
+10. Em qual aba do app recarrega os créditos?  
+        A. Nota e Ranking  
+        B. Supermódulos  
+        C. Infinity Bar (CORRETA)  
+        D. Eventos Gratuitos  

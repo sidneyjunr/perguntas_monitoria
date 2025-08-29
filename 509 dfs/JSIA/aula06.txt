@@ -4,22 +4,10 @@
         C. Definir a estrutura visual de uma interface de usuário, como botões e textos.
         D. Conectar diretamente o código a um banco de dados sem a necessidade de APIs adicionais.
 
-2.  Analise o seguinte conceito sobre a declaração e chamada de funções: 
-        "Uma função é declarada usando a palavra-chave function, seguida pelo nome da função, parênteses e um bloco de código entre chaves. 
-        Para executar o código dentro de uma função, chamamos a função pelo seu nome seguido de parênteses".
-        Com base nisso, qual das seguintes opções representa corretamente um trecho de código que declara e chama uma função simples em JavaScript?
-        A. minhaFuncao(); function minhaFuncao() { console.log("Olá!"); }
-        B. function minhaFuncao { console.log("Olá!"); }; minhaFuncao();
-        C. function minhaFuncao() { console.log("Olá!"); }; minhaFuncao(); (CORRETA)
-        D. call minhaFuncao(); function minhaFuncao() { console.log("Olá!"); }
 
-3.  Conforme a Aula 06, como os parâmetros tornam as funções mais flexíveis e reutilizáveis?
-        A. Eles permitem que uma função se torne uma função nativa automaticamente.
-        B. Eles permitem que uma função receba valores externos e os utilize em seu bloco de código, operando em diferentes conjuntos de dados. (CORRETA)
-        C. Eles definem o tipo de retorno da função, tornando-a mais eficiente.
-        D. Eles evitam que a função precise ser declarada novamente cada vez que for chamada.
 
-4.  Considere o trecho de código baseado na declaração e chamada de funções com parâmetros:
+
+2.  Considere o trecho de código baseado na declaração e chamada de funções com parâmetros:
         function saudacao(nome) {
             console.log("Olá " + nome + "!");
         }
@@ -30,7 +18,7 @@
         C. Olá Felipe! (CORRETA)
         D. Erro: A variável 'nome' não foi definida fora da função.
 
-5.  Analise a função com um parâmetro padrão:
+3.  Analise a função com um parâmetro padrão:
         function cumprimentar(nome = "Visitante") {
             console.log("Olá, " + nome + "!");
         }
@@ -42,43 +30,45 @@
         C. Olá, Bianca! e Olá, undefined!
         D. Olá, undefined! e Olá, Visitante!
 
-6.  Qual é a principal funcionalidade do rest operator (...) quando utilizado na declaração de parâmetros de uma função?
+4.  Qual é a principal funcionalidade do rest operator (...) quando utilizado na declaração de parâmetros de uma função?
         A. Ele converte uma string de texto em um array de caracteres.
         B. Ele permite que a função retorne múltiplos valores como elementos separados.
         C. Ele agrupa vários argumentos passados para a função em um único array, permitindo lidar com um número variável de parâmetros. (CORRETA)
         D. Ele define um valor padrão para um parâmetro caso ele não seja fornecido.
 
-7.  A instrução return é fundamental para o comportamento das funções. Qual é a ação principal que return realiza dentro de uma função?
+5.  A instrução return é fundamental para o comportamento das funções. Qual é a ação principal que return realiza dentro de uma função?
         A. Ele exibe uma mensagem no console indicando o fim da função.
         B. Ele pausa a execução da função temporariamente, permitindo que outras tarefas sejam realizadas.
         C. Ele finaliza a execução de uma função e pode devolver um valor específico para o chamador. (CORRETA)
         D. Ele reinicia a função do começo, ignorando o restante do código atual.
 
-8. Considere o seguinte trecho de código:
-        function calcularSoma(a, b) {
-            return a + b;
-        }
 
-        function exibirProduto(x, y) {
-            console.log(x * y);
-        }
-
-        let soma = calcularSoma(5, 3);
-        let produto = exibirProduto(4, 2);
-        Qual afirmação descreve corretamente os valores de soma e produto após a execução deste código?
-        A. soma terá o valor 8 e produto terá o valor 8.
-        B. soma terá o valor 8 e produto terá o valor undefined. (CORRETA)
-        C. soma terá o valor undefined e produto terá o valor 8.
-        D. Ambos soma e produto terão o valor undefined.
-
-9.  Em JavaScript, o que são funções anônimas?
+6.  Em JavaScript, o que são funções anônimas?
         A. Funções que recebem argumentos ocultos automaticamente.
         B. Funções sem nome que podem ser atribuídas a variáveis, passadas como argumentos ou retornadas por outras funções. (CORRETA)
         C. Funções que só podem ser usadas para exibir mensagens de erro.
         D. Funções que precisam de um identificador numérico único para serem chamadas.
 
-10. De acordo com a Aula 06, o que define uma função de callback?
+7. De acordo com a Aula 06, o que define uma função de callback?
         A. Uma função que é executada antes de qualquer outra função no programa.
         B. Uma função que é definida dentro do escopo de um loop for ou while.
         C. Uma função que é passada como argumento para outra função e é executada após a conclusão da operação na qual foi passada. (CORRETA)
         D. Uma função que só pode ser chamada uma única vez durante a execução do programa.
+
+8. Um aluno faltou a uma aula importante. Qual benefício ele deve usar para garantir que não perca o conteúdo?
+        A. Aulas particulares.
+        B. Aula online.
+        C. Aulas de reposição.(CORRETA)
+        D. Aulas do curso.
+
+9 -  A parceria da Infinity School com quais empresas de tecnologia oferece acesso a ferramentas e certificações relevantes para o mercado?
+        A. Apple, Amazon e Google.
+        B. Microsoft, Oracle e Adobe.
+        C. Microsoft, Google e Adobe.(CORRETA)
+        D. Samsung, Google e Apple.
+
+10 - O ranking de alunos da Infinity School serve principalmente para qual finalidade?
+        A. Determinar quem pode participar de eventos sociais.
+        B. Medir o desempenho dos alunos e incentivar a competição saudável.(CORRETA)
+        C. Oferecer acesso exclusivo a aulas online.
+        D. Limitar o acesso a aulas de reposição.

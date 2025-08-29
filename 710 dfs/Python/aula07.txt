@@ -1,86 +1,74 @@
-    1. Qual a principal razão para dividir o código em módulos (.py arquivos), conforme a Aula 07?
-A. Para tornar o código Python mais rápido em tempo de execução.
-B. Para permitir que o Python compile o código automaticamente em um executável.
-C. Para melhorar a legibilidade e facilitar a manutenção do código, dividindo-o em trechos gerenciáveis e reutilizáveis. (CORRETA)
-D. Para compactar o código e economizar espaço em disco no sistema de arquivos.
+1. Qual a principal razão para dividir o código em módulos (.py arquivos), conforme a Aula 07?
+        A. Para tornar o código Python mais rápido em tempo de execução.
+        B. Para permitir que o Python compile o código automaticamente em um executável.
+        C. Para melhorar a legibilidade e facilitar a manutenção do código, dividindo-o em trechos gerenciáveis e reutilizáveis. (CORRETA)
+        D. Para compactar o código e economizar espaço em disco no sistema de arquivos.
 
 2. Você precisa utilizar apenas a função calcular_media de um módulo chamado estatisticas.py. Qual é a forma de importação mais eficiente e recomendada para este cenário, de acordo com a Aula 07?
-A. from estatisticas import *
-B. import estatisticas as est
-C. from estatisticas import calcular_media (CORRETA)
-D. python -m estatisticas import calcular_media
+        A. from estatisticas import *
+        B. import estatisticas as est
+        C. from estatisticas import calcular_media (CORRETA)
+        D. python -m estatisticas import calcular_media
 
 3. Um desenvolvedor está usando um sistema operacional Windows e criou um ambiente virtual chamado meu_app_venv. Ele tentou ativá-lo com o comando source meu_app_venv/bin/activate, mas a ativação falhou. Qual é o comando correto que ele deveria ter usado para ativar o ambiente virtual no Windows, de acordo com a Aula 06?
-A. python -m meu_app_venv activate
-B. activate meu_app_venv
-C. meu_app_venv/activate
-D. meu_app_venv\Scripts\activate (CORRETA)
+        A. python -m meu_app_venv activate
+        B. activate meu_app_venv
+        C. meu_app_venv/activate
+        D. meu_app_venv\Scripts\activate (CORRETA)
 
 4. Considere o seguinte trecho de código Python:
-import math
-valor = 7.8
-resultado = math.round(valor)
-print(resultado)
-Qual é o problema neste código ao tentar arredondar o número valor para o inteiro mais próximo usando a biblioteca math, de acordo com a Aula 07?
-A. A variável valor deve ser um número inteiro para ser arredondada.
-B. A função math.round() só pode ser usada com valores negativos.
-C. A função math.round() não existe na biblioteca math; a função round() é uma função built-in do Python, ou math.ceil()/math.floor() são usadas para arredondamento específico. (CORRETA)
-D. O módulo math deve ser importado com um apelido, por exemplo, import math as m.
+        import math
+        valor = 7.8
+        resultado = math.round(valor)
+        print(resultado)
+        Qual é o problema neste código ao tentar arredondar o número valor para o inteiro mais próximo usando a biblioteca math, de acordo com a Aula 07?
+        A. A variável valor deve ser um número inteiro para ser arredondada.
+        B. A função math.round() só pode ser usada com valores negativos.
+        C. A função math.round() não existe na biblioteca math; a função round() é uma função built-in do Python, ou math.ceil()/math.floor() são usadas para arredondamento específico. (CORRETA)
+        D. O módulo math deve ser importado com um apelido, por exemplo, import math as m.
 
 5. No projeto de gerenciamento de tarefas da Aula 06, para representar cada tarefa com suas informações (como nome, descrição, prioridade e categoria), qual estrutura de dados é mais adequada para armazenar e organizar esses atributos de forma clara, mapeando chaves a seus respectivos valores?
-A. Listas, por sua capacidade de adicionar e remover elementos dinamicamente.
-B. Tuplas, para garantir que as informações de uma tarefa permaneçam inalteradas.
-C. Conjuntos, para armazenar tarefas únicas sem se preocupar com a ordem.
-D. Dicionários, pois permitem armazenar informações da tarefa como pares chave-valor, facilitando o acesso e a manipulação dos atributos. (CORRETA)
+        A. Listas, por sua capacidade de adicionar e remover elementos dinamicamente.
+        B. Tuplas, para garantir que as informações de uma tarefa permaneçam inalteradas.
+        C. Conjuntos, para armazenar tarefas únicas sem se preocupar com a ordem.
+        D. Dicionários, pois permitem armazenar informações da tarefa como pares chave-valor, facilitando o acesso e a manipulação dos atributos. (CORRETA)
 
-6. Suponha que você tenha a seguinte estrutura de arquivos para um projeto Python:
-meu_projeto/
-├── main.py
-└── servicos/
-    └── processamento.py
-No arquivo processamento.py, existe uma função processar_dados(dados). No main.py, você tenta importar e usar essa função assim:
-import processamento
-dados_brutos = [1, 2, 6]
-dados_processados = processamento.processar_dados(dados_brutos)
-print(dados_processados)
-Qual é o problema com essa importação e uso no main.py, de acordo com as diretrizes de módulos da Aula 07?
-A. A função processar_dados não pode ser acessada diretamente sem ser um método de classe.
-B. O módulo processamento está dentro do subdiretório servicos, exigindo uma importação como from servicos import processamento ou from servicos.processamento import processar_dados. (CORRETA)
-C. É necessário usar from processamento import processar_dados mesmo que o módulo não esteja em um subdiretório.
-D. O nome do arquivo processamento.py é inválido para um módulo Python.
 
-7. Qual é o benefício mais importante de utilizar ambientes virtuais em Python, conforme abordado na Aula 06, especialmente quando se trabalha em múltiplos projetos?
-A. Aumentar a velocidade de execução dos programas Python.
-B. Isolar as dependências de cada projeto, prevenindo conflitos de versões de bibliotecas entre diferentes projetos no mesmo sistema. (CORRETA)
-C. Fornecer uma interface gráfica integrada para o desenvolvimento de software.
-D. Reduzir o tamanho dos arquivos de código fonte dos projetos.
 
-8. Você tem uma lista de opções e deseja escolher uma delas de forma aleatória usando a biblioteca random. Qual dos trechos de código abaixo utiliza corretamente a função para essa finalidade, conforme a Aula 07?
-A.
-import random
-opcoes = ["pedra", "papel", "tesoura"]
-escolha = random.select_one(opcoes)
-B.
-import random
-opcoes = ["pedra", "papel", "tesoura"]
-escolha = random.get_random(opcoes)
-C.
-import random
-opcoes = ["pedra", "papel", "tesoura"]
-escolha = random.choice(opcoes) (CORRETA)
-D.
-import random
-opcoes = ["pedra", "papel", "tesoura"]
-escolha = random.element(opcoes)
+6. Qual é o benefício mais importante de utilizar ambientes virtuais em Python, conforme abordado na Aula 06, especialmente quando se trabalha em múltiplos projetos?
+        A. Aumentar a velocidade de execução dos programas Python.
+        B. Isolar as dependências de cada projeto, prevenindo conflitos de versões de bibliotecas entre diferentes projetos no mesmo sistema. (CORRETA)
+        C. Fornecer uma interface gráfica integrada para o desenvolvimento de software.
+        D. Reduzir o tamanho dos arquivos de código fonte dos projetos.
 
-9. De acordo com a Aula 07, qual a principal diferença conceitual entre as instruções de importação import meu_modulo e from meu_modulo import minha_funcao em Python?
-A. Ambas as formas importam o módulo inteiro, mas a segunda é usada para módulos built-in.
-B. import meu_modulo permite que você acesse as funções diretamente, enquanto from meu_modulo import minha_funcao exige o prefixo meu_modulo..
-C. from meu_modulo import minha_funcao é usada para dar um apelido ao módulo, enquanto import meu_modulo importa sem apelido.
-D. import meu_modulo importa o módulo inteiro, exigindo o prefixo meu_modulo. para acessar suas funções; já from meu_modulo import minha_funcao importa apenas minha_funcao, que pode ser usada diretamente sem o prefixo. (CORRETA)
+7. Você tem uma lista de opções e deseja escolher uma delas de forma aleatória usando a biblioteca random. Qual dos trechos de código abaixo utiliza corretamente a função para essa finalidade, conforme a Aula 07?
+        A.  import random
+            opcoes = ["pedra", "papel", "tesoura"]
+            escolha = random.select_one(opcoes)
+        B.  import random
+            opcoes = ["pedra", "papel", "tesoura"]
+            escolha = random.get_random(opcoes)
+        C.  import random
+            opcoes = ["pedra", "papel", "tesoura"]
+            escolha = random.choice(opcoes) (CORRETA)
+        D.  import random
+            opcoes = ["pedra", "papel", "tesoura"]
+            escolha = random.element(opcoes)
 
-10. Você está desenvolvendo um programa app.py que faz uso de um módulo local ferramentas.py (criado por você) e da biblioteca externa requests. Você criou um ambiente virtual meu_projeto_venv, ativou-o e executou app.py, mas recebeu um ModuleNotFoundError: No module named 'requests'. Qual é a causa mais provável desse erro, considerando os conceitos da Aula 06 e Aula 07?
-A. O módulo local ferramentas.py não foi importado corretamente no app.py.
-B. O ambiente virtual meu_projeto_venv não foi desativado corretamente.
-C. A biblioteca requests não foi instalada especificamente dentro do ambiente virtual meu_projeto_venv após sua ativação. (CORRETA)
-D. O Python não conseguiu encontrar o arquivo app.py no diretório atual.
+8. A certificação internacional oferecida pela Infinity School tem como principal objetivo…
+        A. Garantir que o aluno conclua o curso rapidamente.
+        B. Validar as habilidades e conhecimento sdo aluno em um nível global. (CORRETA)
+        C. Conceder acesso ilimitado a aulas de reposição.
+        D. Substituir o ranking de alunos.
+
+9. Qual o limite de aulas compartilhadas para se inscrever?
+        A. 3 aulas
+        B. 2 aulas por semana. (CORRETA)
+        C. Não há limite
+        D. 1 aula por mês
+
+10. Em qual aba do app marca a presença?
+        A. Nota e ranking
+        B. Marcar Presença. (CORRETA)
+        C. Aulas Compartilhadas
+        D. Infinity Bar
