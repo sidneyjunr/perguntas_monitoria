@@ -1,0 +1,97 @@
+1.  Conforme a revisão da Aula 07 e o que foi visto na Aula 06, o que é uma função de callback e como ela é tipicamente utilizada?
+        A. É uma função que é executada automaticamente antes que qualquer outra função do programa comece.
+        B. É uma função sem nome que não pode ser armazenada em variáveis.
+        C. É uma função que é passada como argumento para outra função e executada após a conclusão de uma operação. (CORRETA)
+        D. É uma função nativa do JavaScript que manipula diretamente o DOM.
+
+2.  Analise o seguinte trecho de código:
+        const numeros = [10, 5, 0, -3, 8];
+        let resultado = [];
+        numeros.forEach(function(numero) {
+            if (numero > 0) {
+                resultado.push("Positivo");
+            } else if (numero < 0) {
+                resultado.push("Negativo");
+            } else {
+                resultado.push("Zero");
+            }
+        });
+        console.log(resultado);
+        Qual será a saída exata no console ao executar este script, de acordo com o uso do método forEach()?
+        A. ["Positivo", "Positivo", "Zero", "Negativo", "Positivo"] (CORRETA)
+        B. [10, 5, 0, -3, 8]
+        C. undefined
+        D. Erro: forEach não pode modificar arrays externos.
+
+3.  Considere o array produtos e o uso do método map():
+        const produtos = [
+            { nome: "Camisa", preco: 50 },
+            { nome: "Calça", preco: 100 },
+            { nome: "Sapato", preco: 150 }
+        ];
+        const precosComDesconto = produtos.map(produto => produto.preco * 0.9);
+        console.log(precosComDesconto);
+        Qual será a saída exata no console ao executar este código?
+        A. [{ nome: "Camisa", preco: 45 }, { nome: "Calça", preco: 90 }, { nome: "Sapato", preco: 135 }]
+        B. 
+        C. [45, 90, 135] (CORRETA)
+        D. undefined
+
+4.  Um desenvolvedor precisa filtrar um array de idades para manter apenas aquelas que representam pessoas maiores de 18 anos.  
+        Analise o seguinte código:
+        const idades = [6, 9, 18, 22, 30];
+        const maioresDeIdade = idades.filter(idade => idade >= 18);
+        console.log(maioresDeIdade);
+        Qual será a saída exata no console ao executar este script?
+        A. []
+        B. [18, 22, 30] (CORRETA)
+        C. ["18", "22", "30"]
+        D. undefined
+
+5.  Considere o seguinte script que utiliza o método reduce():
+        const valores = [2, 4, 11, 12];
+        const somaTotal = valores.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+        console.log(somaTotal);
+        Qual será o valor exibido no console após a execução deste código?
+        A. 2
+        B. 29 (CORRETA)
+        C. 0
+        D. undefined
+
+6.  Um sistema precisa verificar se todos os alunos em uma lista têm nota maior ou igual a 7 para serem considerados aprovados.
+        const notasAlunos = [5, 10, 11, 13, 14];
+        const todosAprovados = notasAlunos.every(nota => nota >= 7);
+        console.log(todosAprovados);
+        Qual será a saída exata no console e por que?
+        A. true, porque todos os alunos foram aprovados.
+        B. false, porque o método every() requer que a nota seja estritamente maior que 7.
+        C. false, porque o aluno com nota 5 não atende à condição, fazendo com que every() pare a execução e retorne falso. (CORRETA)
+        D. true, porque a média das notas é maior que 7.
+
+7.  Analise o seguinte código para localizar um item específico:
+        const itens = ["caneta", "caderno", "borracha", "lápis", "caneta"];
+        const primeiroItemComC = itens.find(item => item.startsWith("c"));
+        console.log(primeiroItemComC);
+        Qual será a saída no console após a execução deste código?
+        A. ["caneta", "caderno"]
+        B. caneta (CORRETA)
+        C. undefined
+        D. Erro: find() não suporta strings.
+
+8.  De acordo com a Aula 07, qual das seguintes opções NÃO é uma vantagem dos métodos auxiliares de arrays (forEach(), map(), filter(), etc.)?
+        A. Promovem a imutabilidade, preservando o estado do array original.
+        B. Tornam o código mais limpo e legível, evitando loops for ou while tradicionais.
+        C. Permitem realizar operações comuns de forma mais eficiente e com menos código.
+        D. Necessitam de declarações de tipo explícitas para arrays, aumentando a complexidade em JavaScript. (CORRETA)
+
+9.  Você precisa criar um novo array contendo a raiz quadrada de cada número do array original, sem modificar o array original. Qual método auxiliar de array seria o mais adequado para essa tarefa?
+        A. forEach()
+        B. reduce()
+        C. map() (CORRETA)
+        D. some()
+
+10. Segundo a Aula 07, como uma ferramenta de Inteligência Artificial como o ChatGPT pode auxiliar no desenvolvimento de código, especialmente com métodos auxiliares de arrays?
+        A. Substituindo completamente o desenvolvedor na escrita de códigos complexos, sem necessidade de supervisão.
+        B. Apenas fornecendo a sintaxe básica dos métodos, sem explicações ou exemplos.
+        C. Oferecendo explicações claras, exemplos práticos, dicas de melhores práticas, identificação de erros, otimizações e diferentes abordagens. (CORRETA)
+        D. Apenas gerando prompts de código, mas sem capacidade de depurar ou otimizar.

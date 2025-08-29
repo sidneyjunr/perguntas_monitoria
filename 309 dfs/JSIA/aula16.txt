@@ -1,0 +1,80 @@
+1. Qual é o projeto principal a ser desenvolvido na Aula 16, aplicando os conhecimentos adquiridos no módulo?
+        A. Um sistema de gerenciamento de banco de dados.
+        B. Um jogo interativo com gráficos avançados.
+        C. Uma lista de tarefas (To-Do List). (CORRETA)
+        D. Uma aplicação de e-commerce completa.
+
+2. Quais funcionalidades a aplicação de lista de tarefas permitirá ao usuário, oferecendo uma experiência interativa e funcional?
+        A. Apenas adicionar e remover tarefas.
+        B. Adicionar, editar, remover e marcar tarefas como concluídas. (CORRETA)
+        C. Somente exibir tarefas e ordená-las por data.
+        D. Gerar relatórios de produtividade baseados nas tarefas.
+
+3. Quais são as duas formas possíveis de persistência dos dados mencionadas para a aplicação de lista de tarefas?
+        A. Somente integrando a uma API externa.
+        B. Somente utilizando cookies no navegador.
+        C. Integrando a uma API ou utilizando o Local Storage. (CORRETA)
+        D. Utilizando banco de dados SQL diretamente no cliente.
+
+4. De acordo com os requisitos funcionais para "Adicionar Tarefas", qual é o estado inicial de uma nova tarefa?
+        A. Cada tarefa deve ter um ID único gerado automaticamente.
+        B. Cada tarefa deve ter um título e um estado inicial como "concluída".
+        C. Cada tarefa deve ter um título e um estado inicial como "pendente" (não concluída). (CORRETA)
+        D. As tarefas só podem ser adicionadas por usuários autenticados.
+
+5. Qual é o propósito da manipulação do DOM (Document Object Model) nos requisitos técnicos da aplicação?
+        A. Apenas para exibir um alerta de boas-vindas ao usuário.
+        B. Para exibir, adicionar, remover e editar tarefas dinamicamente, sem a necessidade de recarregar a página. (CORRETA)
+        C. Para criar animações complexas de transição entre páginas.
+        D. Para gerenciar a autenticação e autorização de usuários.
+
+6. Quais tipos de eventos JavaScript devem ser usados para permitir a interação do usuário com a interface (adicionar, remover, editar e marcar tarefas)?
+        A. Apenas eventos de teclado (keypress, keyup).
+        B. Eventos de mouseover e mouseout.
+        C. Eventos de click e submit. (CORRETA)
+        D. Eventos de rolagem da página (scroll).
+
+7. Qual é o principal objetivo da estilização com CSS na aplicação?
+        A. Tornar a interface complexa para usuários avançados.
+        B. Apenas adicionar cores vibrantes e chamativas.
+        C. Tornar a interface intuitiva e agradável, usando classes dinâmicas para marcar estados. (CORRETA)
+        D. Diminuir o tempo de carregamento da página através de otimização de imagens.
+
+8. Qual ferramenta de persistência de dados é especificamente mencionada para armazenar as tarefas localmente no navegador, garantindo que elas permaneçam mesmo após o fechamento da página?
+        A. Cookies do navegador.
+        B. Session Storage.
+        C. Local Storage. (CORRETA)
+        D. Variáveis de sessão do servidor.
+
+9. De que maneira a Inteligência Artificial (IA) é recomendada como ferramenta de apoio no desenvolvimento da aplicação?
+        A. Apenas para gerar a estrutura inicial do código automaticamente.
+        B. Para tirar dúvidas, buscar soluções, aprender, depurar e corrigir erros, e sugerir melhorias. (CORRETA)
+        C. Somente para traduzir o código para outras linguagens de programação.
+        D. Gerenciar o controle de versão do projeto e colaboração em equipe.
+
+10. Qual das ferramentas de IA recomendadas é um assistente de codificação gratuito que sugere linhas, blocos de código e funções completas enquanto o desenvolvedor programa?
+        A. ChatGPT.
+        B. Google Assistant.
+        C. CodeGeex. (CORRETA)
+        D. Microsoft Word (para documentação).
+
+
+//SOBRE A INFINITY
+
+11. A principal vantagem das aulas online é a flexibilidade de…
+        A. preço e duração do curso.
+        B. conteúdo e material didático.
+        C. tempo e localização. (CORRETA)
+        D. acesso a aulas particulares.
+
+12. Qual benefício da Infinity School é ideal para alunos que precisam de um suporte de aprendizado personalizado e focado em suas dificuldades?
+        A. Aulas particulares. (CORRETA)
+        B. Aula online.
+        C. Aulas de reposição.
+        D. Aulas do curso.
+
+13. Os eventos no bar organizados pela escola têm como principal propósito…
+        A. garantir a frequência dos alunos.
+        B. oferecer um ambiente de estudo formal.
+        C. proporcionar oportunidades de networking e socialização. (CORRETA)
+        D. complementar o ranking de alunos.

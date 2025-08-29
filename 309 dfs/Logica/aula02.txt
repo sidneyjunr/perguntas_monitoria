@@ -1,0 +1,79 @@
+1. Qual é a importância fundamental da indentação em Python, conforme explicado na aula?
+        A. Aumentar o desempenho do código em tempo de execução.
+        B. Definir o tipo de dados das variáveis.
+        C. Facilita a leitura e manutenção do código, sendo essencial para a sintaxe de controle de fluxo. (CORRETA)
+        D. É apenas uma convenção de estilo, não afetando a execução do programa.
+
+2. O que são operadores na programação, de acordo com a definição apresentada?
+        A. São linguagens de programação de baixo nível.
+        B. São variáveis usadas para armazenar diferentes tipos de dados.
+        C. São símbolos que instruem o compilador ou interpretador a realizar operações específicas sobre operandos. (CORRETA)
+        D. São funções internas utilizadas para exibir informações na tela.
+
+3. Qual tipo de operador é usado para verificar se dois valores são diferentes e retorna um valor booleano (True ou False)?
+        A. Aritmético.
+        B. Atribuição.
+        C. Comparação. (CORRETA)
+        D. Lógico.
+
+4. Em Python, qual operador lógico é utilizado para retornar True se ambas as expressões avaliadas forem verdadeiras?
+        A. or
+        B. not
+        C. and (CORRETA)
+        D. in
+
+5. Se você deseja somar um valor a uma variável e, em seguida, atribuir o resultado de volta à mesma variável de forma concisa, qual operador de atribuição você deve usar?
+        A. =
+        B. -=
+        C. *=
+        D. += (CORRETA)
+
+6. Para verificar se um valor não está presente em uma sequência (como uma string, lista ou tupla), qual operador de associação é o mais adequado em Python?
+        A. in
+        B. !=
+        C. not in (CORRETA)
+        D. is not
+
+7. Qual é o conceito principal das estruturas condicionais (if, elif, else) em Python?
+        A. Repetir um bloco de código um número definido de vezes.
+        B. Gerenciar a execução do programa permitindo que o código execute instruções baseadas em condições específicas. (CORRETA)
+        C. Atribuir valores a múltiplas variáveis simultaneamente.
+        D. Definir funções que podem ser reutilizadas em diferentes partes do programa.
+
+8. A estrutura elif ("else if") em Python é utilizada para qual finalidade?
+        A. Executar um bloco de código se a condição if for verdadeira.
+        B. Executar um bloco de código se nenhuma das condições anteriores (if ou outros elif) for verdadeira.
+        C. Verificar múltiplas condições, sendo testada apenas se a condição if anterior não for verdadeira. (CORRETA)
+        D. Inverter o valor booleano de uma expressão.
+
+9. Em uma estrutura condicional if-elif-else, quando o bloco de código associado ao else será executado?
+        A. Sempre que a condição do if for verdadeira.
+        B. Apenas se houver um erro de sintaxe nas condições anteriores.
+        C. Quando nenhuma das condições anteriores (if ou elif) for verdadeira. (CORRETA)
+        D. Antes de qualquer verificação das condições if ou elif.
+
+10. Qual é a principal vantagem de utilizar estruturas condicionais aninhadas (uma dentro da outra)?
+        A. Aumentar a velocidade de execução do programa.
+        B. Simplificar o código, tornando-o mais curto.
+        C. Criar verificações de condições mais complexas e detalhadas. (CORRETA)
+        D. Evitar o uso de operadores lógicos.
+
+//SOBRE A INFINITY
+
+11. A certificação internacional oferecida pela Infinity School tem como principal objetivo…
+        A. Garantir que o aluno conclua o curso rapidamente.
+        B. Validar as habilidades e conhecimento sdo aluno em um nível global. (CORRETA)
+        C. Conceder acesso ilimitado a aulas de reposição.
+        D. Substituir o ranking de alunos.
+
+12. Qual o limite de aulas compartilhadas para se inscrever?
+        A. 3 aulas
+        B. 2 aulas por semana. (CORRETA)
+        C. Não há limite
+        D. 1 aula por mês
+
+13. Em qual aba do app marca a presença?
+        A. Nota e ranking
+        B. Marcar Presença. (CORRETA)
+        C. Aulas Compartilhadas
+        D. Infinity Bar

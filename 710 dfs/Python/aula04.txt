@@ -1,0 +1,72 @@
+1. De acordo com o material da Aula 04, qual das seguintes opções melhor descreve o que é uma função em programação?
+A. Uma estrutura de dados usada para armazenar uma coleção de itens.
+B. Um conjunto de instruções que executa um programa inteiro de uma vez.
+C. Uma mini-fábrica que realiza uma tarefa específica, recebendo entradas, processando-as e produzindo uma saída. (CORRETA)
+D. Uma variável global que pode ser acessada de qualquer parte do código.
+
+2. A Aula 04 introduz o Paradigma Funcional. Qual é o foco principal desse estilo de programação?
+A. Criar interfaces gráficas complexas para o usuário.
+B. Realizar computações através da avaliação de funções, evitando mudança de estado e dados mutáveis. (CORRETA)
+C. Organizar o código em classes e objetos com seus próprios estados.
+D. Utilizar apenas variáveis globais para facilitar o acesso aos dados.
+
+3. Na definição e uso de funções, a Aula 04 distingue entre 'parâmetros' e 'argumentos'. Qual a afirmação correta sobre essa distinção?
+A. Parâmetros são os valores que você passa para a função, e argumentos são as variáveis que a função recebe.
+B. Parâmetros e argumentos são termos sinônimos e podem ser usados de forma intercambiável.
+C. Parâmetros são as variáveis que a função recebe em sua definição, e argumentos são os valores que você passa para esses parâmetros durante a chamada da função. (CORRETA)
+D. Parâmetros são usados apenas em rotinas, e argumentos são usados apenas em unidades lógicas.
+
+4. Analise a seguinte função Python:
+def saudacao(nome):
+    print(f"Olá, {nome}!")
+
+resultado = saudacao("Mundo")
+print(resultado)
+Considerando o que foi aprendido sobre o retorno padrão de funções na Aula 04, qual será a saída no console após a execução deste código?
+A. Olá, Mundo! Olá, Mundo!
+B. Olá, Mundo! None (CORRETA)
+C. None Olá, Mundo!
+D. O código causará um erro, pois a função não tem um return explícito.
+
+5. A Aula 04 diferencia "Rotinas" de "Unidades Lógicas". Qual das seguintes descrições corresponde corretamente a uma "Rotina"?
+A. Um bloco de código que resolve um problema específico e sempre retorna um valor.
+B. Uma função que realiza ações e manipula dados externos, mas não retorna valores explicitamente. (CORRETA)
+C. Qualquer função que utiliza a palavra-chave return.
+D. Uma função que é chamada apenas uma vez durante a execução do programa.
+
+6. Uma das boas práticas destacadas na Aula 04 é o "Reaproveitamento". Qual das seguintes situações exemplifica essa prática?
+A. Escrever a mesma lógica de código em diferentes partes do programa para garantir que funcione.
+B. Criar funções que são específicas para uma única situação, sem possibilidade de uso em outros contextos.
+C. Desenvolver uma função como somar(a, b) que pode ser usada em qualquer parte do código onde a soma de dois números é necessária. (CORRETA)
+D. Usar comentários extensos no código, mas sem organizar a lógica em funções.
+
+7. Considere a seguinte função Python:
+def calcular_area_retangulo(largura, altura):
+    return largura * altura
+
+# O que precisa ser adicionado para exibir o resultado no console?
+area = calcular_area_retangulo(5, 10)
+# PONTO DE ADIÇÃO
+De acordo com a Aula 04, qual linha de código deve ser adicionada no # PONTO DE ADIÇÃO para que o valor da area seja exibido na tela?
+A. area
+B. return area
+C. print(area) (CORRETA)
+D. exibir(area)
+
+8. A Aula 04 menciona o "escopo de uma função". O que o escopo de uma função representa?
+A. A quantidade de linhas de código dentro da função.
+B. A região do código onde a função existe e pode ser utilizada, determinando a visibilidade de suas variáveis. (CORRETA)
+C. O número de parâmetros que a função aceita.
+D. A complexidade algorítmica da função.
+
+9. Considerando as atividades práticas propostas na Aula 04, qual delas resultaria tipicamente na criação de uma "Rotina"?
+A. Crie uma função que receba dois números e retorne a soma deles.
+B. Crie uma função que receba um nome e imprima uma saudação personalizada. (CORRETA)
+C. Crie uma função que receba dois números e retorne a multiplicação deles.
+D. Crie uma calculadora com opções de soma, multiplicação, subtração, divisão e sair.
+
+10. Ainda com base nas atividades práticas da Aula 04, qual delas se encaixa melhor na descrição de uma "Unidade Lógica"?
+A. Crie uma função que receba um horário e imprima "Bom dia!", "Boa tarde!" ou "Boa noite!".
+B. Crie uma função que receba um nome e imprima uma saudação.
+C. Crie uma função que receba dois números e retorne a subtração do primeiro pelo segundo. (CORRETA)
+D. Crie uma função que exiba uma mensagem de boas-vindas ao usuário.

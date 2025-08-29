@@ -1,0 +1,101 @@
+
+1. Qual dos seguintes elementos NÃO é um componente essencial para o funcionamento correto de um laço de repetição while?
+        A. Inicialização, que define o ponto de partida do laço.
+        B. Condição, que é o critério que determina se o laço continua ou termina.
+        C. Incremento/Decremento, que é a atualização do estado para eventualmente atender à condição de término.
+        D. Declaração de função, que é uma construção para organizar blocos de código reutilizáveis. (CORRETA)
+
+2. Sobre o funcionamento do laço while, quando a condição é verificada?
+        A. A condição é verificada apenas após cada iteração do bloco de código.
+        B. A condição é verificada somente na primeira iteração, e o laço continua se for verdadeira.
+        C. A condição é verificada antes de cada iteração do bloco de código, determinando se a execução continua. (CORRETA)
+        D. A condição é verificada apenas quando o comando break é encontrado dentro do laço.
+
+3. Analise o seguinte trecho de código:
+        numero = 0
+        while numero < 3:
+            print("Executando...")
+        Qual problema este código apresentará ao ser executado?
+        
+        A. Um erro de sintaxe, pois a variável numero não foi inicializada com um tipo de dado específico.
+        B. O código executará "Executando..." três vezes e depois terminará normalmente.
+        C. O código entrará em um loop infinito, pois a variável numero nunca é incrementada, fazendo com que a condição numero < 3 seja sempre verdadeira. (CORRETA)
+        D. O código não imprimirá nada, pois a condição numero < 3 é falsa desde o início.
+
+4. O comando break é uma ferramenta importante no controle de fluxo dos laços de repetição. Qual é o efeito imediato de um break dentro de um laço while?
+        A. Ele faz o laço recomeçar do zero, reiniciando todas as variáveis.
+        B. Ele pula a iteração atual e continua para a próxima verificação da condição do laço.
+        C. Ele interrompe imediatamente o laço while, ignorando quaisquer iterações restantes e qualquer cláusula else associada ao while. (CORRETA)
+        D. Ele apenas exibe uma mensagem de erro indicando que o laço foi interrompido.
+
+5. Considere o seguinte código:
+        i = 0
+        while i < 5:
+            print(i)
+            if i == 2:
+                break
+            i += 1
+        else:
+            print("Loop terminou normalmente.")
+
+        Qual será a saída exata deste programa?
+        A. 0, 1, 2, Loop terminou normalmente.
+        B. 0, 1, 2. (CORRETA)
+        C. 0, 1, 2, 3, 4, Loop terminou normalmente.
+        D. Apenas 0.
+
+6. A cláusula else pode ser utilizada em conjunto com um laço while. Em que situação o bloco de código dentro do else do while será executado?
+        A. Sempre que o laço while terminar, independentemente da causa.
+        B. Apenas se o laço while nunca for executado.
+        C. Quando a condição do while se torna falsa e o laço termina de forma normal, sem ser interrompido por um break. (CORRETA)
+        D. Somente se houver um erro durante a execução do laço while.
+
+7. Observe o código abaixo:
+        contador = 0
+        while True:
+            print(contador)
+            contador += 1
+
+        Assumindo que não há nenhum break escondido ou interação externa, qual é o problema fundamental com este trecho de código?
+        A. A variável contador nunca é inicializada.
+        B. O código causará um erro de sintaxe porque while True é uma expressão inválida.
+        C. Este é um loop infinito que imprimirá números indefinidamente, pois não há uma condição interna ou comando break para terminá-lo. (CORRETA)
+        D. O loop terminará automaticamente quando contador atingir o limite máximo de um inteiro.
+
+8. Combinar laços while com estruturas condicionais (if, elif, else) é uma prática recomendada. Qual é um dos principais benefícios dessa combinação, conforme a Aula 03?
+        A. Simplificar a sintaxe básica do laço while para reduzir o número de linhas de código.
+        B. Eliminar a necessidade de uma condição de término explícita no laço while.
+        C. Permite criar programas mais robustos e dinâmicos, executando blocos de código específicos com base em condições verificadas a cada iteração do laço. (CORRETA)
+        D. Acelerar o processamento de dados, transformando o while em um laço paralelo.
+
+9. Considere o seguinte código com laços aninhados:
+        i = 0
+        while i < 2:
+            j = 0
+            while j < 2:
+                print(f"Laço Interno: ({i},{j})")
+                j += 1
+            i += 1
+
+        Quantas vezes a mensagem "Laço Interno: (i,j)" será impressa na tela?
+        A. 2 vezes
+        B. 3 vezes
+        C. 4 vezes (CORRETA)
+        D. 6 vezes
+
+10. Analise o código que tenta encontrar um número par em um determinado intervalo e para a execução quando encontra:
+        num = 7
+        limite = 15
+        while num <= limite:
+            if num % 2 == 0:
+                print(f"Número par encontrado: {num}")
+                break
+            num += 1
+        else:
+            print("Nenhum número par encontrado no intervalo.")
+
+        Qual será a saída final deste código?
+        A. Nenhum número par encontrado no intervalo.
+        B. Número par encontrado: 8 (CORRETA)
+        C. Número par encontrado: 14
+        D. O código entrará em loop infinito.

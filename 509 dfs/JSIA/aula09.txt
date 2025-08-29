@@ -1,0 +1,107 @@
+1. De acordo com o material da Aula 09, qual das seguintes afirmações descreve corretamente o propósito das funções em programação?
+        A. Funções são usadas exclusivamente para armazenar valores de variáveis e não podem executar lógica.
+        B. Funções são blocos de código reutilizáveis que executam uma tarefa específica, organizando o código de forma modular e facilitando sua manutenção, podendo receber parâmetros e retornar um resultado. (CORRETA)
+        C. Funções são estruturas que definem objetos e suas propriedades, mas não seus comportamentos.
+        D. Funções são apenas usadas para fazer requisições de rede e operações assíncronas.
+
+2. Analise o seguinte trecho de código JavaScript:
+        console.log(saudar("Mundo"));
+
+        function saudar(nome) {
+            return "Olá, " + nome + "!";
+        }
+        Qual será a saída no console e por que, considerando os tipos de funções abordados na Aula 09?
+        A. O código causará um erro, pois a função saudar está sendo chamada antes de ser declarada, o que não é permitido.
+        B. O código exibirá "Olá, Mundo!" no console, pois funções declarativas são elevadas (hoisted) e podem ser chamadas antes de sua declaração no script. (CORRETA)
+        C. O código exibirá undefined, pois a função saudar não possui um valor de retorno explícito.
+        D. O código exibirá um objeto de erro, indicando que saudar não é uma função.
+
+3. Considere o seguinte código que utiliza uma função de callback:
+        function processarDados(callback) {
+            console.log("Passo 1: Iniciando o processamento...");
+            setTimeout(() => {
+                console.log("Passo 2: Dados processados.");
+                callback();
+            }, 100);
+            console.log("Passo 3: Finalizando o processo principal.");
+        }
+
+        function exibirConclusao() {
+            console.log("Passo 4: Callback executado.");
+        }
+
+        processarDados(exibirConclusao);
+        Qual será a sequência de mensagens exibidas no console?
+        A. "Passo 1: Iniciando o processamento..." -> "Passo 2: Dados processados." -> "Passo 4: Callback executado." -> "Passo 3: Finalizando o processo principal."
+        B. "Passo 1: Iniciando o processamento..." -> "Passo 3: Finalizando o processo principal." -> "Passo 2: Dados processados." -> "Passo 4: Callback executado." (CORRETA)
+        C. "Passo 2: Dados processados." -> "Passo 4: Callback executado." -> "Passo 1: Iniciando o processamento..." -> "Passo 3: Finalizando o processo principal."
+        D. "Passo 1: Iniciando o processamento..." -> "Passo 4: Callback executado." -> "Passo 2: Dados processados." -> "Passo 3: Finalizando o processo principal."
+
+4. As Arrow Functions, introduzidas no ES6, oferecem uma sintaxe mais curta e outras características importantes. Qual das seguintes opções descreve corretamente uma de suas principais propriedades, conforme a Aula 09?
+        A. As Arrow Functions possuem seu próprio contexto de this, o que simplifica a manipulação de objetos e classes.
+        B. Elas podem ser chamadas antes de sua declaração (hoisting), similar às funções declarativas.
+        C. As Arrow Functions não criam seu próprio contexto de this, o que é útil para manter o contexto this do escopo envolvente em callbacks e métodos. (CORRETA)
+        D. Sua principal aplicação é para lidar com operações síncronas complexas, onde a concisão não é um fator.
+
+5. Considere o seguinte array de objetos:
+        const produtos = [
+            { id: 1, nome: "Notebook", preco: 2500 },
+            { id: 2, nome: "Mouse", preco: 150 }
+        ];
+        const nomesDosProdutos = produtos.map(item => item.nome.toUpperCase());
+        console.log(nomesDosProdutos);
+        Qual será a saída exata no console ao executar este código?
+        A. Notebook
+        B. notebook
+        C. ["Notebook", "Mouse"]
+        D. ["NOTEBOOK", "MOUSE"] (CORRETA)
+
+6. Um desenvolvedor precisa calcular o total de vendas a partir de um array de objetos. Analise o código:
+        const vendas = [
+            { item: "Camiseta", valor: 50 },
+            { item: "Calça", valor: 120 },
+            { item: "Meia", valor: 10 }
+        ];
+        const totalVendas = vendas.reduce((acumulador, vendaAtual) => acumulador + vendaAtual.valor, 0);
+        console.log(totalVendas);
+        Qual será o valor impresso no console por este script?
+        A. 180
+        B. 170
+        C. 130
+        D. 180 (CORRETA)
+
+7. Dado o seguinte array de números:
+        const idades = [5, 6, 8-10];
+        const maioresDeIdade = idades.filter(idade => idade >= 18);
+        console.log(maioresDeIdade.length);
+        Quantos elementos estarão presentes no array maioresDeIdade após a execução deste código?
+        A. 3
+        B. 4 (CORRETA)
+        C. 5
+        D. 6
+
+8. Qual das seguintes opções descreve uma das principais vantagens da Programação Orientada a Objetos (POO), conforme discutido na Aula 09?
+        A. Redução significativa do tempo de execução do código em todas as aplicações.
+        B. Eliminação da necessidade de testar o código, devido à sua natureza autodocumentada.
+        C. Facilitação da organização e reutilização do código através de conceitos como herança, encapsulamento e polimorfismo, tornando-o mais modular e fácil de manter. (CORRETA)
+        D. Restrição do desenvolvimento a linguagens de programação de baixo nível.
+
+9. No contexto da Programação Orientada a Objetos, qual a distinção fundamental entre uma Classe e um Objeto?
+        A. Uma Classe é uma representação abstrata de dados, enquanto um Objeto é um tipo de dado primitivo.
+        B. Uma Classe é uma instância concreta de um Objeto, enquanto um Objeto é o modelo para criar Classes.
+        C. Uma Classe é um modelo ou molde que define a estrutura e o comportamento, enquanto um Objeto é uma instância específica dessa Classe, possuindo seus próprios dados e funcionalidades. (CORRETA)
+        D. Classes e Objetos são termos sinônimos, usados indistintamente para representar dados e métodos.
+
+10. Analise o código JavaScript que utiliza a desestruturação de objetos:
+        const configuracoesUsuario = {
+            tema: "claro",
+            idioma: "pt-BR",
+            notificacoes: true
+        };
+        const { idioma, tema } = configuracoesUsuario;
+        console.log(`Idioma: ${idioma}, Tema: ${tema}`);
+        Qual será a saída exata no console ao executar este script?
+        A. Idioma: undefined, Tema: undefined
+        B. Idioma: pt-BR, Tema: claro (CORRETA)
+        C. Idioma: true, Tema: pt-BR
+        D. { tema: "claro", idioma: "pt-BR", notificacoes: true }

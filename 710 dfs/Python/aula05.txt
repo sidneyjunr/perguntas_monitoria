@@ -1,0 +1,89 @@
+1. De acordo com o resumo da Aula 05, que recapitula a Aula 04, qual é o papel fundamental das funções em programação?
+A. Armazenar dados em uma estrutura de árvore para acesso rápido.
+B. Realizar cálculos matemáticos complexos de forma exclusiva em um único ponto do programa.
+C. Organizar e reutilizar blocos de código que realizam tarefas específicas. (CORRETA)
+D. Definir variáveis globais que podem ser acessadas de qualquer parte do programa.
+
+2. A Aula 05 introduz a notação *args (Argumentos Posicionais Arbitrários) para solucionar qual desafio na definição de funções?
+A. A necessidade de retornar sempre um único valor de uma função.
+B. A limitação de não poder passar argumentos de palavra-chave para uma função.
+C. A incapacidade de lidar com um número variável de argumentos posicionais sem predefinir cada um explicitamente. (CORRETA)
+D. A exigência de que todas as funções tenham um número fixo e predeterminado de parâmetros.
+
+3. Considere a seguinte função Python que utiliza *args:
+def calcular_soma_produtos(*valores):
+    soma = 0
+    produto = 1
+    for v in valores:
+        soma += v
+        produto *= v
+    return soma, produto
+
+resultado_soma, resultado_produto = calcular_soma_produtos(1, 2, 3)
+print(f"Soma: {resultado_soma}, Produto: {resultado_produto}")
+Qual será a saída correta deste código?
+A. Soma: 1, Produto: 6
+B. Soma: 6, Produto: 6 (CORRETA)
+C. Um erro de execução, pois *valores não pode ser iterado diretamente.
+D. Soma: 1, Produto: 1
+
+4. A notação **kwargs (Argumentos de Palavra-Chave) é apresentada na Aula 05 como uma ferramenta útil para qual finalidade em funções?
+A. Para forçar a função a aceitar apenas argumentos posicionais.
+B. Para permitir que a função receba um número fixo de parâmetros sem nomes específicos.
+C. Para criar funções flexíveis que podem lidar com um número indefinido de argumentos de palavra-chave (nomeados), como opções ou configurações. (CORRETA)
+D. Para garantir que as variáveis definidas dentro da função tenham escopo global.
+
+5. Analise a função e a chamada a seguir:
+def configurar_servidor(**config):
+    if "porta" in config:
+        print(f"Configurando porta: {config['porta']}")
+    if "protocolo" in config:
+        print(f"Usando protocolo: {config['protocolo']}")
+    print(f"Configurações restantes: {config}")
+
+configurar_servidor(porta=8080, 'http', timeout=30)
+Qual será o resultado da execução deste código?
+A. Configurando porta: 8080 Usando protocolo: http Configurações restantes: {'porta': 8080, 'protocolo': 'http', 'timeout': 30}
+B. Configurando porta: 8080 Configurações restantes: {'porta': 8080, 'timeout': 30}
+C. Um erro de sintaxe ou execução, pois 'http' é um argumento posicional em uma chamada **kwargs. (CORRETA)
+D. A função ignorará 'http' e executará normalmente as outras configurações.
+
+6. De acordo com a Aula 05, qual das seguintes características é verdadeira sobre as Funções Lambda?
+A. São blocos de código extensos usados para encapsular lógicas de negócios complexas.
+B. Possuem um nome definido e são usadas principalmente para recursão.
+C. São funções anônimas, pequenas e concisas, frequentemente usadas como argumentos para outras funções ou em contextos específicos. (CORRETA)
+D. Só podem ser definidas com múltiplos parâmetros e sempre retornam um valor booleano.
+
+7. Observe a função lambda abaixo, que verifica a idade:
+verificar_idade = lambda idade: "Maior de idade" if idade >= 18 else "Menor de idade"
+print(verificar_idade(17))
+print(verificar_idade(22))
+Qual será a saída correta ao executar este código?
+A. Menor de idade Maior de idade (CORRETA)
+B. Maior de idade Menor de idade
+C. Erro de sintaxe na expressão condicional da lambda.
+D. A função retornará None para ambas as chamadas.
+
+8. A Aula 05 destaca as funções map(), filter() e reduce() como ferramentas úteis quando combinadas com funções lambda. Qual é o propósito principal dessas combinações?
+A. Para criar interfaces gráficas de usuário e gerenciar eventos.
+B. Para definir novas classes e objetos em programação orientada a objetos.
+C. Para aplicar transformações em elementos de uma sequência, filtrar elementos com base em condições e reduzir uma sequência a um único valor, respectivamente, na manipulação de dados. (CORRETA)
+D. Para gerenciar o escopo de variáveis e evitar efeitos colaterais.
+
+9. Considerando a lista precos =, o que será impresso ao executar o código abaixo que aplica um aumento de 10% em cada preço usando map() e uma função lambda?
+precos = [10]
+novos_precos = list(map(lambda p: p * 1.10, precos))
+print(novos_precos)
+A. [10.0, 20.0, 30.0]
+B. [11.0, 22.0, 33.0] (CORRETA)
+C. map object at <memory address>
+D. Um erro de execução, pois a lambda não pode realizar operações aritméticas.
+
+10. Dada a lista de idades pessoas_idades =, o que será exibido no console após a execução do seguinte código, que filtra pessoas maiores de idade?
+pessoas_idades = [5, 10, 11]
+maiores_de_idade = list(filter(lambda idade: idade >= 18, pessoas_idades))
+print(maiores_de_idade)
+A.
+B.  (CORRETA)
+C. Erro de tipo, pois filter espera um booleano e a lambda retorna um número.
+D. filter object at <memory address>
